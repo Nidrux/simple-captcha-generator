@@ -21,7 +21,7 @@ const { Captcha } = require("simple-captcha-generator");
 const captcha = new Captcha();
 ```
 
-### Usage
+### Usage:
 
 ```js
 const { Captcha }= require('simple-captcha-generator');
@@ -34,14 +34,14 @@ let captcha = new Captcha();
 })();
 ```
 
-#### How to set string length?
+##### How to set string length?
 
 You can have have a `min length of 5` and a `max length of 10`. When no length is specified it will default to 5. Every length above 10 will default to 10.
 
 ```js
 const captcha = new Captcha(5);
 ```
-### Options
+### Options:
 
 .currentString `string`
 
@@ -64,7 +64,7 @@ const captcha = new Captcha(5);
 
 <div align="center">
   
-### Example images
+### Example images:
   
 <img src="https://cdn.discordapp.com/attachments/861785154980806696/861981966785576960/file.jpg" display="inline-block" width="200px" height="auto">
 <img src="https://media.discordapp.net/attachments/861785154980806696/861981905394335775/file.jpg" display="inline-block" width="200px" height="auto">
