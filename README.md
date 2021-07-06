@@ -2,7 +2,7 @@
 
 # simple-captcha-generator
   
-Generate captcha string with image for discord bot
+Generate a simple captcha string and or captcha image.
   
 ![](https://img.shields.io/github/languages/top/Nidrux/simple-captcha-generator)
 ![](https://img.shields.io/codacy/grade/415e4c6f1c5648098bdd039f7666212f)
