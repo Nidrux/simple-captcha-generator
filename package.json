@@ -1,17 +1,30 @@
 {
-  "name": "captchagen",
+  "name": "simple-captcha-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple captcha generator",
+  "main": "captcha.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "captcha",
+    "generator",
+    "simple",
+    "simple-captcha",
+    ""
+  ],
+  "author": "Nidrux",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.8.0",
-    "discord.js": "^12.5.3"
-  }
+    "canvas": "^2.8.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidrux/simple-captcha-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nidrux/simple-captcha-generator/issues"
+  },
+  "homepage": "https://github.com/Nidrux/simple-captcha-generator#readme"
 }
