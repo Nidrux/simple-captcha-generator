@@ -1,7 +1,7 @@
 # discord-captcha-generator
 Generate captcha string with image for discord bot
 
-type `npm i` in your cmd to install modules
+Type `npm i` in your cmd to install modules
 
 
 create captcha:
