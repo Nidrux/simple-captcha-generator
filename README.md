@@ -17,10 +17,23 @@ Type `npm i simple-captcha-generator` in your cmd to install the package
 
 #### create captcha:
 ```js
-const Captcha = require("simple-captcha-generator");
+const { Captcha } = require("simple-captcha-generator");
 const captcha = new Captcha();
-captcha.image(captcha.currentString) //Returns image buffer of current generated string (possible to add your own string)
 ```
+
+### Usage
+
+```js
+const { Captcha }= require('simple-captcha-generator');
+let captcha = new Captcha();
+
+
+(async () => {
+    console.log(captcha.currentString);
+    console.log(await captcha.image(captcha.currentString));
+})();
+```
+
 #### How to set string length?
 
 You can have have a `min length of 5` and a `max length of 10`. When no length is specified it will default to 5. Every length above 10 will default to 10.
@@ -42,11 +55,12 @@ const captcha = new Captcha(5);
 
 .image() `Buffer`
 
-  <i>Returns and image buffer of the generated captcha</i><br>
+  <i>Returns and image buffer of the generated captcha (Promise so use await!)</i><br>
   <strong>Usage</strong>
   ```js
   captcha.image(captcha.currentString) //Return image buffer of current generated string
   ```
+
 
 <div align="center">
   
