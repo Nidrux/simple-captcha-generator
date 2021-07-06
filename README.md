@@ -1,12 +1,12 @@
 <div align="center">
 
-# discord-captcha-generator
+# simple-captcha-generator
   
 Generate captcha string with image for discord bot
   
-![](https://img.shields.io/github/languages/top/Nidrux/discord-captcha-generator)
+![](https://img.shields.io/github/languages/top/Nidrux/simple-captcha-generator)
 ![](https://img.shields.io/codacy/grade/415e4c6f1c5648098bdd039f7666212f)
-![](https://img.shields.io/github/repo-size/Nidrux/discord-captcha-generator)
+![](https://img.shields.io/github/repo-size/Nidrux/simple-captcha-generator)
 
  </div>
  
