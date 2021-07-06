@@ -12,11 +12,12 @@ Generate captcha string with image for discord bot
  
 ### Installation
 
-Type `npm i` in your cmd to install modules
+Type `npm i simple-captcha-generator` in your cmd to install the package
 
 
 create captcha:
 ```js
+const Captcha = require("simple-captcha-generator");
 const captcha = new Captcha();
 
 captcha.currentString() //Returns generated string
