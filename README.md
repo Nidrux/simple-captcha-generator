@@ -4,10 +4,10 @@
   
 Generate a simple captcha string and or captcha image.
   
-![](https://img.shields.io/github/languages/top/Nidrux/simple-captcha-generator)
-![](https://img.shields.io/codacy/grade/415e4c6f1c5648098bdd039f7666212f)
-![](https://img.shields.io/github/repo-size/Nidrux/simple-captcha-generator)
-
+ <img src="https://img.shields.io/github/languages/top/Nidrux/simple-captcha-generator">
+ <img src="https://img.shields.io/codacy/grade/415e4c6f1c5648098bdd039f7666212f">
+ <img src="https://img.shields.io/github/repo-size/Nidrux/simple-captcha-generator">
+ <a href=""><img src="https://img.shields.io/npm/v/simple-captcha-generator"></a>
  </div>
  
 ### Installation
