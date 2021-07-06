@@ -21,7 +21,7 @@ class Captcha {
         this.currentString = currentText;
     }
     async image(string) {
-        Canvas.registerFont('./assets/captcha-font.ttf', {family: 'captcha'});
+        Canvas.registerFont('node_modules/simple-captcha-generator/assets/captcha-font.ttf', {family: 'captcha'});
         const canvas = Canvas.createCanvas(500, 200);
         const ctx = canvas.getContext('2d');
         const patterns = [
