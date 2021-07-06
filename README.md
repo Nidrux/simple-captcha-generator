@@ -19,7 +19,7 @@ Type `npm i simple-captcha-generator` in your cmd to install the package
 ```js
 const Captcha = require("simple-captcha-generator");
 const captcha = new Captcha();
-captcha.image(captcha.currentString()) //Returns image buffer of current generated string (possible to add your own string)
+captcha.image(captcha.currentString) //Returns image buffer of current generated string (possible to add your own string)
 ```
 #### How to set string length?
 
@@ -30,12 +30,12 @@ const captcha = new Captcha(5);
 ```
 ### Options
 
-.currentString() `string`
+.currentString `string`
 
   <i>Returns a generated string with the given length</i><br>
   <strong>Example: '0e6ji'</strong>
 
-.length() `int`
+.length `int`
 
   <i>Returns the given length</i><br>
   <strong>Example: 8</strong>
