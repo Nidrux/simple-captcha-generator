@@ -58,7 +58,7 @@ const captcha = new Captcha(5);
   <i>Returns and image buffer of the generated captcha (Promise so use await!)</i><br>
   <strong>Usage</strong>
   ```js
-  captcha.image(captcha.currentString) //Return image buffer of current generated string
+  captcha.image(captcha.image()) //Return image buffer of current generated string
   ```
 
 
